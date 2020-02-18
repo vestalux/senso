@@ -1,3 +1,7 @@
+- name: Kezdőlap
+  link: /home/
+  new_window: false
+  highlight: false
 - name: Rólunk
   link: /rolunk/
   new_window: false
