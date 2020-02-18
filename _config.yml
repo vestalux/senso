@@ -1,16 +1,16 @@
 # ----
 # Site
 
-title: Sufni Textil
-url: "http://sufnitextil.eu"
+title: Senso
+url: "https://vestalux.github.io/senso/"
 baseurl:
-google_analytics_key: UA-17340317-7
-google_maps_javascript_api_key: AIzaSyCVY5ygshFdTVn8z2izzqcSiC31Y71hhX4
+google_analytics_key:
+google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A Sufni Textil varroda hímzés varrás szabás szolgáltatásokkal áll partnerei rendelkezésére
+description: A Senso varroda hímzés varrás szabás szolgáltatásokkal áll partnerei rendelkezésére
 author:
   name:
   email:
