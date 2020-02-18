@@ -23,22 +23,21 @@
 {% include uszt.html %}
 	<body>
 		<header>
-			<div class="container">
+					<div class="container">
+						<div class="company-name">
+						<a href="
+					{% if page.lang == 'hu' %}
+						{{ site.baseurl }}/
+						{% endif %}
+							{% if page.lang == 'en' %}
+						{{ site.baseurl }}/home.html
+						{% endif %}
+						"><img src="{{ site.baseurl }}/images/logo.svg" alt="Senso Logo" width="95" height="33" /></a></div>
+						{% include navigation.html %}
 
-				<a href="
-			{% if page.lang == 'hu' %}
-				{{ site.baseurl }}/
-				{% endif %}
+					</div>
 
-					{% if page.lang == 'en' %}
-				{{ site.baseurl }}/home.html
-				{% endif %}
-				"></a>
-				{% include navigation.html %}
-		</div>
-
-
-		</header>
+				</header>
 
 
 
