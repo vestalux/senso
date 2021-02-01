@@ -1,5 +1,5 @@
 - name: Kezdőlap
-  link: /home/
+  link: /
   new_window: false
   highlight: false
 - name: Rólunk
