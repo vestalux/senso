@@ -11,8 +11,6 @@ map:
   address: " Kossuth Lajos utca 302, Kaposfő, Magyarország"
   zoom: 17
 ---
-<div class="map" id="map"></div>
-
 <div class="contact-box">
 	<form accept-charset="UTF-8" action="https://formspree.io/hello@sufnitextil.eu" method="POST">
 		<input type="text" name="_gotcha" style="display: none;">
@@ -26,18 +24,21 @@ map:
 		<label for="message">Message</label>
 		<textarea name="message" id="message" placeholder="Your enquiery..."></textarea>
 
-		<input type="submit" value="Submit" />
+		<input type="submit" value="Send" />
 	</form>
 
 	<div class="contact-details">
-		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<h3 class="editable">Head Office</h3>
+		<p>7523 Kaposfő, Kossuth Lajos u. 302</p>
+
+    <h3 class="editable">Satellite office</h3>
+    <p>7523 Kaposfő, Kossuth Lajos u. 302</p>
 
 		<h3 class="editable">Email</h3>
-		<p><a href="mailto:info@senso.eu">info@senso.eu</a></p>
+		<p><a href="mailto:szenzo2020@gmail.com">szenzo2020@gmail.com</a></p>
 
 		<h3 class="editable">Telephone</h3>
-		<p>+36 82 468 097</p>
+		<p>+36 20 465 5725</p>
 	</div>
 </div>
 
